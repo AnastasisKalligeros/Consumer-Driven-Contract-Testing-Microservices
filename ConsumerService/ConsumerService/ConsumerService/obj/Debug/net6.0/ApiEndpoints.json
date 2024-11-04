@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "ConsumerService.Controllers.ConsumerController",
+    "Method": "GetFromProvider",
+    "RelativePath": "api/consumer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

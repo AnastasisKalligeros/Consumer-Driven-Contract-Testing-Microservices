@@ -1,0 +1,32 @@
+{
+  "consumer": {
+    "name": "ConsumerService"
+  },
+  "provider": {
+    "name": "ProviderService"
+  },
+  "interactions": [
+    {
+      "description": "A valid request for discount",
+      "request": {
+        "method": "GET",
+        "path": "/discount"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content_Type": "application/json"
+        },
+        "body": {
+          "customerRating": 4.5,
+          "amountToDiscount": 0.45
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
